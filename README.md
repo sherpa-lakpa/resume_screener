@@ -3,6 +3,8 @@ This is a Python program that uses natural language processing techniques to mat
 
 The match percentage is displayed on a gauge chart, and the predicted job position for the resume is displayed. The application also includes a feature to upload multiple resumes for screening and displays the match percentage and predicted job position for each resume on a chart. The application uses the sklearn library for text processing, nltk for tokenization, docx2txt for reading word documents, and streamlit for building the web app. It also includes a class JobPredictor that predicts the job position of the given resume using a trained model saved as pickles.
 
+To run working [Notebook in Kaggle](https://www.kaggle.com/code/sherpalakpa18/resume-screener/notebook)
+
 ## Prerequisites
 Before running this program, you will need to install the packages using following command:
 ```sh 
